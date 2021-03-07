@@ -73,7 +73,15 @@
   
   /* Style the header */
   .header {
-    background-color: #f44336;
+    height:auto;
+    padding: 40px 0;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    border-radius:4px;
+    border:1px solid #330867;
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #30cfd0, #330867 130%);
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -90,8 +98,8 @@
   input {
     margin: 0;
     border: none;
-    border-radius: 0;
-    width: 75%;
+    border-radius: 15px 0px 0px 15px ;
+    width: 85%;
     padding: 10px;
     float: left;
     font-size: 16px;
@@ -100,7 +108,7 @@
   /* Style the "Add" button */
   .addBtn {
     padding: 10px;
-    width: 25%;
+    width: 15%;
     background: #d9d9d9;
     color: #555;
     float: left;
@@ -108,7 +116,7 @@
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius:  0px 15px 15px 0px;
   }
   
   .addBtn:hover {
