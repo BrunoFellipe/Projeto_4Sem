@@ -72,21 +72,33 @@
   }
   
   /* Style the header */
-  .header {
+  .geral {
     height:auto;
     padding: 30px 0;
     color:#fff;
     font-size:18px;
-    text-align:center;
     border-radius:3px;
     border:1px solid #330867;
     box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
     background-image: linear-gradient(to bottom, #30cfd0, #330867 100%);
-    padding: 20px 30px;
+    padding: 30px 20px;
     color: white;
-    text-align: center;
+    
   }
-  
+
+  .header {
+    text-align:center;
+    
+  }
+
+  .login {
+    height: auto;
+    padding: 95%;
+    color:white;
+    
+  }
+
+
   /* Clear floats after the header */
   .header:after {
     content: "";
