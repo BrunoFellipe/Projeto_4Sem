@@ -37,13 +37,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Perform your AJAX/Fetch login
 
-        setFormMessage(loginForm, "error", "Invalid username/password combination");
+        setFormMessage(loginForm, "error", "Combinação invalida de usuário e senha");
     });
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {
             if (e.target.id === "signupUsername" && e.target.value.length > 0 && e.target.value.length < 10) {
-                setInputError(inputElement, "Username must be at least 10 characters in length");
+                setInputError(inputElement, "O nome de usuário deve ter pelo menos 10 caracteres");
             }
         });
 
